@@ -1,0 +1,47 @@
+.coin-table-container {
+  overflow-y: hidden;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .coin-image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .trContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
